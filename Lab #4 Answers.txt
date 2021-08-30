@@ -1,0 +1,19 @@
+#1 $ tar tf archive.tar
+
+#2 $ sudo tar -cf archivee.tar /etc
+
+#3	- ls -id /
+	- ls -id /etc
+	- ls -i /etc/hosts
+
+#4 $ cp /etc/passwd ~/Downloads/day4 			//copy passwd 
+	$ nano passwd 		// Edit passwd file in my directory (~/Downloads/day4) 
+	$ diff -c ./passwd /etc/passwd
+	$ cmp  ./passwd /etc/passwd
+
+#5	$ sudo ln -s /etc/passwd /boot
+
+#6 $ sudo ln /etc/passwd /boot
+	I can't create a hard link of /etc/passwd in /boot
+	as passwd file already exist as a symbolic link
+
