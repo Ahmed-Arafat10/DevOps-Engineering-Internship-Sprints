@@ -1,0 +1,72 @@
+#1 $ sudo useradd -c "Islam Askar" islam
+	$ sudo passwd islam
+	then enter "islam" as a password
+
+#2	$ sudo useradd -c "Bad User" baduser
+	$ sudo passwd baduser 
+	then enter "baduser" as a password
+
+#3 sudo groupadd -g 30000 pgroup
+
+#4 sudo groupadd badgroup
+
+#5 $ sudo usermod -aG pgroup islam
+
+#6 $ sudo passwd islam 
+
+#7 $ sudo chage -M 30 islam
+
+#8 $ sudo usermod -L islam
+
+#9 $ sudo userdel -r baduser
+
+#10 $ sudo groupdel badgroup
+
+#13 $ mkdir ~/myteam
+	$ sudo chmod 477 ~/myteam
+
+#14 $ su - AnotherUserName
+
+#15 $ cd ~/myteam
+
+#16 $ chmod 631 oldpasswd
+	$ chmod u=rw,g=wx,o=x oldpasswd
+	Default permession for a file -> rw-rw-r--
+	Default permession for a Directory -> rwxrwxr-x
+	$ chmod u-rw,g-wx,o-r file1
+	$ chmod u-rwx,g-rwx,o-rx dir1
+	$ mkdir dir1/dir2
+	$ touch dir1/file2
+	
+#17 - source directory -> [r][x]
+	  target parent directory -> [w][x]
+	- source file -> [r]
+	  target parent directory -> [w][x]
+	- Delete file -> [w]
+	- change to a directory -> [r]
+	- list a directory content -> [r]
+	- view file content -> [r]
+	- modify a file -> [w]
+
+#18 $ touch file1
+	$ chmod 444 file1
+	- I can't edit it
+	- I can remove it
+	
+#19	x for File -> execute a file like .py .cpp
+	x for Directory -> to [cd] this Directory
+	
+#20	$ sleep 100 &
+
+#21	$ kill -9 2323
+	OR	
+	$ pkill -9 sleep
+	
+#22 $ ps -u ahmed
+
+#23 $ ps -U root -u ahmed -N
+
+#24 $ grep -l -u ahmed
+	
+	
+	
