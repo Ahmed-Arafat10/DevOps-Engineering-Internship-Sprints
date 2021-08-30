@@ -1,0 +1,54 @@
+#1
+Ahmed Mohamed Yousry
+21 Years Old
+Business Information System (bis)
+C++ , SQL , Java , etc...
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+~                                                                              
+"mycv" 4 lines, 96 characters
+
+2#
+a- Press j button in Command Mode
+b- Press k button in Command Mode
+c- write /age Press Enter Button and move from lines by pressing n/N in Command Mode
+d- Enter :5 in Command Mode
+e- Enter :4,5d in Command Mode
+f- first show number of line bys entering -> :set nu in Command Mode
+and then :number of last line in Command Mode then enter i
+
+#3 $ cat /etc/shells
+
+#4 $ printenv OR env
+
+#5 $ man bash
+
+#6 $ echo $VariableName
+
+#7 $ echo $SHELL
+
+#8  ~/bashrc, ~/.bash_profile, ~/.bash_login, and ~/.profile
+
+#9 edit file .bashrc using command -> $ nano ~/.bashrc
+	and then add $ date  and press ctrl + s  to save and the crtl + x to quit
+	then write $ source ~/.bashrc to excute it (reload)
+
+#10 $ alias ls  = "ls -l"
+	if i want to make it permenant then add it in ~/.bashrc
+	and to use default command write \ before ls
