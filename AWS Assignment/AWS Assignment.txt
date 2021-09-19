@@ -1,0 +1,13 @@
+1) Create 2 IAM users each one in two different groups with different permesions(DONE)
+
+2) Create EC2 and put html file in it + Use Public IP Address to browse your html website using Appache server (DONE)
+
+3) Create VPC + two Subnets one is Public & the other is Private each one has it's own EC2. For EC2 of Private Subnet create a NAT Getway + Routing table for Both Subnets + Internet Getway (DONE)
+
+4) Create S3 with your Static Website (DONE)
+
+5) Create two Images one for Private EC2 and other for Public EC2 (DONE)
+
+6) Create Snapshots for EBS attached with Public/Private EC2 (DONE)
+
+7) Create a CloudFormation Template then create Public Subnet then inside it create EC2 with security group shh->22 && http->80 (DONE)
