@@ -10,4 +10,4 @@
 
 6) Create Snapshots for EBS attached with Public/Private EC2 (DONE)
 
-7) Create a CloudFormation Template then create Public Subnet then inside it create EC2 with security group shh->22 && http->80 (DONE)
+7) Create a CloudFormation Template then create Public Subnet then inside it create EC2 with security group SSH->22 && HTTP->80 (DONE)
